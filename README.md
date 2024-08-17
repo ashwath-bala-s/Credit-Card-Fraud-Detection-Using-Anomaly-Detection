@@ -6,4 +6,33 @@ The frauds in the credit cards industry are stealing or using stolen cards, or t
 
 **Problem Statement:**
 
-The objective of this project is to develop an anomaly detection model that accurately identifies fraudulent credit card transactions based on historical transaction data. Utilizing machine learning algorithms, the model will analyze patterns in transaction behavior to distinguish between legitimate and suspicious activities
+The objective of this project is to develop an anomaly detection model that accurately identifies fraudulent credit card transactions based on historical transaction data. Utilizing machine learning algorithms, the model will analyze patterns in transaction behavior to distinguish between legitimate and suspicious activities.
+
+**Dataset:**
+
+
+The dataset has 2,84,807 records and has the following variables:
+
+(i) Time: Time elapsed since the first transaction in seconds.
+
+(iI) V1 to V28: Anonymized features derived from the original data (these could represent various transaction attributes).
+
+(iii) Amount: The transaction amount.
+
+(iv) Class: Indicating whether the transaction is fraudulent (1) or legitimate (0) [Target Variable]
+
+**Project Description:**
+
+• Utilized the PyOD (Python Outlier Detection) library for anomaly detection.
+
+• Conducted Exploratory Data Analysis (EDA) for an in-depth understanding of credit card transactional data.
+
+• Performed feature pre-processing prior to model building.
+
+• Developed and evaluated Isolation Forest, Local Outlier Factor, One-Class SVM, and XGBoost models for anomaly detection.
+
+• Compared the models using the AUC-ROC curve.
+
+• Achieved an ROC score of 0.99 with the XGBoost model.
+
+**Skills:** Machine Learning · Anomaly Detection · Exploratory Data Analysis · Feature Pre-Processing · PyOD · Isolation Forest Model · Local Outlier Factor Model · One Class SVM Model · XGBoost
